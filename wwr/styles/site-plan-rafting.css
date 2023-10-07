@@ -8,8 +8,8 @@ Fonts are separated by a & */
   /* change the values below to your colors from your palette */
   --primary-color: #aaa1a5   ;
   --secondary-color: #4d5e68;
-  --accent1-color: #54634d;
-  --accent2-color: #e8dfca;
+  --accent1-color: #e8dfca;
+  --accent2-color: #54634d;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Caveat;
