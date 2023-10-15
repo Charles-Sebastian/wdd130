@@ -130,6 +130,10 @@ main section img {
     height: 725px;
 }
 
+.mountains {
+    margin: 100 0;
+}
+
 footer {
     background-color: #4D5E68;
     color: #E8DFCA;
