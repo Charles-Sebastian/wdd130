@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Merriweather:wght@300&display=swap');
+
 body {
     background-color: #aaa1a5;
+    font-family: Merriweather, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+h2 {
+    margin: 0;
 }
 
 #content {
@@ -19,6 +33,7 @@ nav a {
     text-align: center;
     color: #E8DFCA;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -36,6 +51,9 @@ nav a:hover {
 
 .home-title {
     color: #E8DFCA;
+    font-family: Caveat;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 #hero-msg h4{
@@ -45,7 +63,16 @@ nav a:hover {
 .book, .join {
     color: #E8DFCA;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
+.button-box {
+    text-align: center;
+}
+
 
 .book:hover, .join:hover {
     background-color: #54634D;
@@ -53,37 +80,60 @@ nav a:hover {
     text-decoration: none;
 }
 
-.button-box {
-    text-align: center;
-}
-
 main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+.river-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .msg {
     background-color: #4D5E68;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #E8DFCA;
+    font-family: Caveat;
 }
 
 .msg p {
     color: #E8DFCA;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 #background {
     height: 725px;
 }
 
-footer{
+footer {
     background-color: #4D5E68;
     color: #E8DFCA;
+    padding: 25px 50px;
 }
 
 footer a {
@@ -98,4 +148,8 @@ footer a:hover {
 
 footer p {
     font-size: 1.2em;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
