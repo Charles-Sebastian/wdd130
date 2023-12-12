@@ -1,0 +1,303 @@
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color: rgba(83, 103, 141, .7);
+}
+
+.logo {
+  width: 80px;
+}
+
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 35px;
+}
+
+nav a:hover {
+  color: #841715;
+}
+
+.cover{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: -100px;
+}
+
+.cover_img {
+  width: 1425px;
+  z-index: -1;
+}
+
+.description{
+  margin: 30px;
+}
+
+body {
+  background-color: #07112d;
+  color: white;
+  font-family: Roboto Condensed, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  margin: 30px;
+}
+
+.book{
+  display: grid;
+  grid-template-columns: 310px 1fr;
+  grid-template-rows: 500px;
+  column-gap: 20px;
+  align-items: center;
+  background-color: #53678d;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.books_images {
+  width: 310px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #841715;
+}
+
+.book_summary {
+  padding: 10px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.books_slideshow {
+  max-width: 1500px;
+  position: relative;
+  margin: 0;
+}
+
+/* Hide the images by default */
+.book_slide {
+  display: none;
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 6px 12px;
+  position: absolute;
+  top: -1;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.novellas{
+  background-color: #53678d;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.novellas_images{
+  width: 310px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #841715;
+}
+
+.mistborn{
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 500px 500px;
+  column-gap: 50px;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mistborn img{
+  height: 500px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #841715;
+}
+
+.white_sand{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 500px;
+  column-gap: 50px;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.white_sand img{
+  height: 500px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #841715;
+}
+
+.stand_alones{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 500px;
+  column-gap: 50px;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.stand_alones img{
+  height: 500px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #841715;
+}
+
+.cosmere_novellas{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 500px;
+  column-gap: 50px;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cosmere_novellas img{
+  height: 500px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #841715;
+}
+
+.brandon_sanderson{
+  display: grid;
+  grid-template-columns: 605px 1fr;
+}
+
+.bio_1{
+  grid-column: 1/3;
+  margin: 0;
+}
+
+.brandon_sanderson img{
+  margin: 0;
+  width: auto;
+}
+
+.bio_2{
+  margin: 0;
+}
+
+.bio_3{
+  grid-column: 1/3;
+  margin: 0;
+}
+
+.websites{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 50px;
+  justify-items: center;
+  margin-top: 100px;
+}
+
+.websites img{  
+  max-height: 200px;
+}
+
+.citation{
+  margin-top: 100px;
+  font-size: 11px;
+}
+
+footer {
+  background-color: #53678d;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  align-self: center;
+}
+
+footer a:hover {
+  color: #841715;
+}
+
+.social {
+  align-self: center;
+  display: grid;
+  grid-template-columns: 75px 75px 75px;
+  column-gap: 35px;
+  justify-content: center;
+}
+
+.social img{
+  width: 75px;
+}
+
+.site_plan {
+  font-size: 10px;
+}
+
